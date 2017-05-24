@@ -1,0 +1,137 @@
+#audio-info1{
+    width: 1120px;
+    box-sizing: content-box;
+    padding: 0 20px;
+    margin: 0;
+    position: relative;
+}
+#audio-info1 *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+#audio-info1 .red{
+    color: #f04d49;
+}
+#audio-info1 .bold{
+    font-weight: bold;
+}
+#audio-info1 .small{
+    font-size: 12px;
+    color: #d4d4d4;
+    line-height: 18px;
+}
+#audio-info1 .margin-large{
+    margin-top: 15px;
+}
+#audio-info1 p, #audio-info1 li{
+    font: normal 14px/24px Arial;
+}
+#audio-info1 ul{
+    padding: 0 0 0 32px;
+}
+#audio-info1 .header{
+    background: #f04d49;
+    background-image: url("cloud__top.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+#audio-info1 .heading{
+    background: url("header__bg.png") top center no-repeat;
+    width: 700px;
+    margin: 0 0 0 220px;
+    text-align: center;
+    height: 370px;
+    font-weight: 900;
+    padding: 130px 0 0 0;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+#audio-info1 .section1{
+    position: relative;
+    padding: 0 0 0 300px;
+}
+#audio-info1 .section1 img{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 170px;
+}
+#audio-info1 .section1 .price{
+    font: bold 30px Arial;
+}
+#audio-info1 .section1-caption{
+    text-align: center;
+    font: bold 25px/40px Arial;
+}
+#audio-info1 .section1-content h2{
+    font: bold 24px Arial;
+    margin: 85px 0 15px;
+
+}
+#audio-info1 .section1-content{
+    z-index: 3;
+    position: relative;
+}
+#audio-info1 .section2{
+    position: relative;
+    z-index: 1;
+    background: #f04d49;
+    margin: -80px 0 0;
+    padding: 120px 0 30px 55px;
+}
+#audio-info1 .section2 img{
+    position: absolute;
+    right: -10px;
+    top: 130px;
+    z-index: 500;
+}
+#audio-info1 .section2 h2{
+    text-transform: uppercase;
+}
+#audio-info1 .section2 p, #audio-info1 .section2 ul{
+    color: #fff;
+}
+#audio-info1 .section3{
+    background: #d4413e;
+    padding: 33px 55px 0;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+#audio-info1 .section3 h3{
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 0 20px;
+    justify-content: space-between;
+    counter-reset: count;
+}
+#audio-info1 .section3-item{
+    width: 326px;
+    margin: 0 0 65px;
+    position: relative;
+    z-index: 2;
+}
+#audio-info1 .section3-item::before{
+    content: counter(count);
+    counter-increment: count;
+    position: absolute;
+    font: 900 136px Arial;
+    color: #d85a57;
+    z-index: -1;
+    top: -50px;
+    left: 50px;
+}
+#audio-info1 .section3-item:nth-child(5)::before, #audio-info1 .section3-item:last-child::before{
+    top: -60px;
+}
+#audio-info1 .section4{
+    position: relative;
+    z-index: 1;
+}
+#audio-info1 .section4 img{
+    position: absolute;
+    top: -196px;
+    left: -10px;
+    z-index: -1;
+}
